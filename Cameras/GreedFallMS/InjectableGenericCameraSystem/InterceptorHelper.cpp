@@ -1,6 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Part of Injectable Generic Camera System
 // Copyright(c) 2019, Frans Bouma
+// Copyright(c) 2021, magni1200s
 // All rights reserved.
 // https://github.com/FransBouma/InjectableGenericCameraSystem
 //
