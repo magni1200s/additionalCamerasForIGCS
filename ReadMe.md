@@ -2,7 +2,7 @@ Additional Cameras for Injectable Generic Camera System
 ============================
 
 ## Supported Camera(s)
-* [GreedFall (Microsoft Store/Xbox Game Pass version)]()
+* [GreedFall (Microsoft Store/Xbox Game Pass version)](https://github.com/magni1200s/additionalCamerasForIGCS/tree/main/Cameras/GreedFallMS)
 
 
 ### Acknowledgements
