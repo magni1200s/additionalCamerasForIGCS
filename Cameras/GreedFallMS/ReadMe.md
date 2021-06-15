@@ -70,6 +70,7 @@ You need Visual Studio 2019.
 ### How to run
 1. Launch GreedFall
 2. When you can see the main menu, run IGCSInjector.exe
+
 If the camera is injected successfully, you will see the credit in upper left corner on your screen.
 
 ### Changelog
