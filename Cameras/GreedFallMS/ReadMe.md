@@ -67,6 +67,11 @@ You need Visual Studio 2019.
 2. Build the solution
 3. You will get the DLL file GreedFallMSCameraTools.dll in Cameras\GreedFallMS\bin\x64\[Release|Debug]
 
+### How to run
+1. Launch GreedFall
+2. When you can see the main menu, run IGCSInjector.exe
+If the camera is injected successfully, you will see the credit in upper left corner on your screen.
+
 ### Changelog
 15-Jun-2021 First releasae
 
