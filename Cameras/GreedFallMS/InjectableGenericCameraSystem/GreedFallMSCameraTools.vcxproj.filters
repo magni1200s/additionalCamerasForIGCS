@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Game Specific">
+      <UniqueIdentifier>{21ee7a28-64d4-4051-bf4f-30c9498e8631}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooking">
+      <UniqueIdentifier>{f623d11c-6aca-4fde-a2c3-4929e69f435a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{511b0788-eed3-44e9-8be8-dbaaa292afaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{3289b65c-0177-4c58-9d34-c74c0b877bb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{ca2264d0-e256-4068-a87c-15737e78aefd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Overlay">
+      <UniqueIdentifier>{a0851452-112a-4260-8916-2be6b2807653}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Overlay\Imgui">
+      <UniqueIdentifier>{03ec8370-c3cd-436f-a1ab-38f615979f9d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\CameraManipulator.cpp">
+      <Filter>Game Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\AOBBlock.cpp">
+      <Filter>Hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\GameImageHooker.cpp">
+      <Filter>Hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\InputHooker.cpp">
+      <Filter>Hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\ScanPattern.cpp">
+      <Filter>Hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\D3D11Hooker.cpp">
+      <Filter>Hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\ActionData.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\Gamepad.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\Input.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\CDataFile.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\Console.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\Globals.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\Camera.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\ScreenshotController.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\System.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\Utils.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\stdafx.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\OverlayConsole.cpp">
+      <Filter>Overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\OverlayControl.cpp">
+      <Filter>Overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\Overlay\imgui.cpp">
+      <Filter>Overlay\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\Overlay\imgui_demo.cpp">
+      <Filter>Overlay\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\Overlay\imgui_draw.cpp">
+      <Filter>Overlay\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\Overlay\imgui_impl_dx11.cpp">
+      <Filter>Overlay\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\Overlay\imgui_impl_win32.cpp">
+      <Filter>Overlay\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\Overlay\imgui_widgets.cpp">
+      <Filter>Overlay\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="InterceptorHelper.cpp">
+      <Filter>Game Specific</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\CameraManipulator.h">
+      <Filter>Game Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\InterceptorHelper.h">
+      <Filter>Game Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\GameConstants.h">
+      <Filter>Game Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\AOBBlock.h">
+      <Filter>Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\GameImageHooker.h">
+      <Filter>Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\InputHooker.h">
+      <Filter>Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\ScanPattern.h">
+      <Filter>Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\D3D11Hooker.h">
+      <Filter>Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\ActionData.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\Gamepad.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\Input.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\CDataFile.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\Console.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\Defaults.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\Camera.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\GameCameraData.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\Globals.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\ScreenshotController.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\Settings.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\System.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\Utils.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\stdafx.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\targetver.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\OverlayConsole.h">
+      <Filter>Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\OverlayControl.h">
+      <Filter>Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\Overlay\imconfig.h">
+      <Filter>Overlay\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\Overlay\imgui.h">
+      <Filter>Overlay\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\Overlay\imgui_impl_dx11.h">
+      <Filter>Overlay\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\Overlay\imgui_impl_win32.h">
+      <Filter>Overlay\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\Overlay\imgui_internal.h">
+      <Filter>Overlay\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\Overlay\imstb_rectpack.h">
+      <Filter>Overlay\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\Overlay\imstb_textedit.h">
+      <Filter>Overlay\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dependencies\InjectableGenericCameraSystem\Cameras\Greedfall\InjectableGenericCameraSystem\Overlay\imstb_truetype.h">
+      <Filter>Overlay\Imgui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="Interceptor.asm">
+      <Filter>Game Specific</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
