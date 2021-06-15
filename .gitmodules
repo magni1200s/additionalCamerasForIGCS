@@ -1,0 +1,3 @@
+[submodule "dependencies/InjectableGenericCameraSystem"]
+	path = dependencies/InjectableGenericCameraSystem
+	url = https://github.com/FransBouma/InjectableGenericCameraSystem.git
