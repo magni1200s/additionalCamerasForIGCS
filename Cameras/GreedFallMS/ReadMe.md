@@ -11,6 +11,17 @@ Please refer [Injectable camera for Greedfall by Frans Bouma (aka otis_inf)](htt
 1.0.14 (as of 1st Jul 2021)
 
 
+### Download
+The source code and the binaries are available in [Releases](https://github.com/magni1200s/additionalCamerasForIGCS/releases) page.
+
+
+### How to run
+1. Launch GreedFall
+2. When you can see the main menu, run IGCSInjector.exe
+
+If the camera is injected successfully, you will see the credit in upper left corner on your screen.
+
+
 ### Key assignments
 #### General
 Control | Kyeboard & Mouse | Xbox Controller
@@ -67,14 +78,9 @@ You need Visual Studio 2019.
 2. Build the solution
 3. You will get the DLL file GreedFallMSCameraTools.dll in Cameras\GreedFallMS\bin\x64\[Release|Debug]
 
-### How to run
-1. Launch GreedFall
-2. When you can see the main menu, run IGCSInjector.exe
-
-If the camera is injected successfully, you will see the credit in upper left corner on your screen.
-
 ### Changelog
 15-Jun-2021 First releasae
+
 
 ### Acknowledgements
 [Injectable Generic Camera System by Frans Bouma](https://github.com/FransBouma/InjectableGenericCameraSystem)
