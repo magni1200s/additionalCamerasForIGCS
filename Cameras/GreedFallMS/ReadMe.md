@@ -8,7 +8,7 @@ Please refer [Injectable camera for Greedfall by Frans Bouma (aka otis_inf)](htt
 
 
 ### Supported game version
-1.0.10 (as of 15th Jun 2021)
+1.0.14 (as of 1st Jul 2021)
 
 
 ### Key assignments
